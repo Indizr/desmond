@@ -8,7 +8,7 @@ Desmond is a responsive CSS theme for static web pages.
 
 - Default fonts PT Serif and Hattori Hanzo are self-hosted, for better performance.
 
-To see a live sample page using the Desmond theme, visit https://indizr.com/static/desmond/
+To see a live sample page using the Desmond theme, visit https://indizr.com/lab/desmond/
 
 Desmond is, and always will be, free to use under MIT license. It is under active development, so we welcome feedback, pull requests, bug reports, etc. via https://github.com/indizr/desmond/
 

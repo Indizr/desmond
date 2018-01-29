@@ -1,7 +1,7 @@
 /*
 
 Desmond
-Copyright (c) 2017 Peter A. McKay
+Copyright (c) 2017-2018 Peter A. McKay
 Free to use under MIT license.
 
 
@@ -24,26 +24,58 @@ Typography
 
 @font-face {
   font-family: 'Hattori Hanzo';
-  src: url('fonts/hattori_hanzo/webfont.eot') format('eot');
-  src: url('fonts/hattori_hanzo/webfont.eot?iefix') format('eot'),
+  src: url('fonts/hattori_hanzo/webfont.eot') format('eot'), url('fonts/hattori_hanzo/webfont.eot?iefix') format('eot'),
        url('fonts/hattori_hanzo/webfont.woff') format('woff'),
         url('fonts/hattori_hanzo/webfont.ttf') format('truetype'),
         url('fonts/hattori_hanzo/webfont.svg#webfont') format('svg');
 }
 
+
+/* Typeface for italic body copy... */
+
 @font-face {
-  font-family: 'PT Serif';
-  src: url('fonts/pt_serif/webfont.eot') format('eot');
-  src: url('fonts/pt_serif/webfont.eot') format('eot'),
-       url('fonts/pt_serif/webfont.woff') format('woff'),
-        url('fonts/pt_serif/webfont.ttf') format('truetype'),
-        url('fonts/pt_serif/webfont.svg#webfont') format('svg');
+  font-family: 'Open Sans';
+  font-weight: normal;
+  font-style: italic;
+  src: url('fonts/open_sans/italic/OpenSans-Italic-webfont.svg') format('svg'), src: url('fonts/open_sans/italic/OpenSans-Italic-webfont.eot') format('eot'), src: url('fonts/open_sans/italic/OpenSans-Italic-webfont.eot?iefix') format('eot'), src: url('fonts/open_sans/italic/OpenSans-Italic-webfont.woff') format('woff'), src: url('fonts/open_sans/italic/OpenSans-Italic-webfont.ttf') format('truetype'); 
 }
+
+
+/* Typeface for bold body copy... */
+
+@font-face {
+  font-family: 'Open Sans';
+  font-weight: bold; 
+  font-style: normal;
+  src: url('fonts/open_sans/bold/OpenSans-Bold-webfont.svg') format('svg'), url('fonts/open_sans/bold/OpenSans-Bold-webfont.eot') format('eot'), url('fonts/open_sans/bold/OpenSans-Bold-webfont.eot?iefix') format('eot'), url('fonts/open_sans/bold/OpenSans-Bold-webfont.woff') format('woff'), url('fonts/open_sans/bold/OpenSans-Bold-webfont.ttf') format('truetype');
+}
+
+
+
+/* Typeface for bold italic body copy... */
+
+@font-face {
+  font-family: 'Open Sans';
+  font-weight: bold;
+  font-style: italic;
+  src: url('fonts/open_sans/bolditalic/OpenSans-BoldItalic-webfont.svg') format('svg'), url('fonts/open_sans/bolditalic/OpenSans-BoldItalic-webfont.eot') format('eot'), url('fonts/open_sans/bolditalic/OpenSans-BoldItalic-webfont.eot?iefix') format('eot'), url('fonts/open_sans/bolditalic/OpenSans-BoldItalic-webfont.woff') format('woff'), url('fonts/open_sans/bolditalic/OpenSans-BoldItalic-webfont.ttf') format('truetype');
+  }
+
+
+/* Typeface for normal body copy... */
+
+@font-face {
+  font-family: 'Open Sans';
+  font-weight: normal;
+  font-style: normal;
+  src: url('fonts/open_sans/normal/OpenSans-Regular-webfont.svg') format('svg'), url('fonts/open_sans/normal/OpenSans-Regular-webfont.eot') format('eot'), url('fonts/open_sans/normal/OpenSans-Regular-webfont.eot?iefix') format('eot'), url('fonts/open_sans/normal/OpenSans-Regular-webfont.woff') format('woff'), url('fonts/open_sans/normal/OpenSans-Regular-webfont.ttf') format('truetype');
+ }
+
 
 
 html {
   font-size: 16px;
-  font-family: 'PT Serif', serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 html, body {
